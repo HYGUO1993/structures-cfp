@@ -1,79 +1,81 @@
-# 特刊推广文案 · LinkedIn / 朋友圈
+# 朋友圈 / LinkedIn 发布文案
 
-> 当前 H5：`https://1ee999a4f0c549ebb3336cf8c246c56e.gz3.agentos-app.net`
+> 所有配图链接、QR 内容已统一指向：
+> **ScienceDirect 特刊主页**：https://www.sciencedirect.com/special-issue/334586/climate-resilient-structures-life-cycle-performance-and-structural-innovation
+> **三语 H5 站（GitHub Pages）**：https://hyguo1993.github.io/structures-cfp/
 
----
+## 一、素材文件
 
-## 一、LinkedIn（英文）
-
-We are pleased to announce a forthcoming Special Issue of *Structures* (Elsevier):
-
-**Climate-Resilient Structures: Life-Cycle Performance and Structural Innovation**
-
-The issue will bring together research on how structures can be designed, assessed, and maintained under changing climate conditions. We welcome original research articles and comprehensive reviews on:
-- Structural response to climate change & extreme events
-- Performance-based & climate-adaptive design
-- Life-cycle performance, durability & sustainability
-- Structural innovation for resilience (self-centering, advanced materials, novel construction)
-- Experimental, computational & data-driven advances
-
-Submissions open: 1 August 2026  
-Submission deadline: 31 July 2027  
-Article type in Editorial Manager: `VSI: Climate Resilient Struct`
-
-Submit: https://www.editorialmanager.com/STRUCTURES
-Special Issue page: https://www.sciencedirect.com/special-issue/334586/climate-resilient-structures-life-cycle-performance-and-structural-innovation
-Details (multilingual: EN / FR / 中文): https://1ee999a4f0c549ebb3336cf8c246c56e.gz3.agentos-app.net
-
-Guest Editors: You Dong (Executive Guest Editor, PolyU), Emilio Bastidas-Arteaga (La Rochelle University), Hongyuan Guo (PolyU), and Baixi Chen (UCF).
-
-We would be grateful if you shared this call with colleagues working in these areas. Please feel free to contact us to discuss whether a proposed contribution fits the scope.
-
-#StructuralEngineering #ClimateResilience #LifeCycleEngineering #SustainableInfrastructure #Structures
+| 文件 | 用途 |
+|---|---|
+| `web/assets/cfp-poster-a4.png` | **主发布图**：A4 英文竖版 2382×3369，**二维码已嵌（指向 ScienceDirect 特刊主页）**，可直接发朋友圈/LinkedIn |
+| `web/cfp_qr.png` | 同上（已同步） |
+| `web/social_copy.md` | 本文件 |
+| `web/index.html` | A4 单页海报网页；旧三语网页已存档 |
+| `output/pdf/climate-resilient-structures-cfp-a4.pdf` | A4 单页打印版 PDF |
 
 ---
 
-## 二、微信朋友圈（中文）
+## 二、朋友圈（WeChat Moments）
 
-Structures（Elsevier）特刊征稿
+**配图**：直接发 `web/assets/cfp-poster-a4.png` 一张图（海报自带二维码，扫到 ScienceDirect 特刊主页）。
 
-《气候韧性结构：全寿命性能与结构创新》
+**文案**：
 
-诚邀原创研究论文与高质量综述，聚焦气候变化背景下结构的性能、耐久性、可持续性与创新。
+> Structures（Elsevier）特刊征稿
+>
+> 《气候韧性结构：全寿命性能与结构创新》
+>
+> 投稿开放：2026年8月1日
+> 投稿截止：2027年7月31日
+> 文章类型：VSI: Climate Resilient Struct
+>
+> 客座编辑：董优（执行客座编辑，香港理工大学）· Emilio Bastidas-Arteaga（法国拉罗谢尔大学）· 郭弘原（香港理工大学）· 陈百曦（中佛罗里达大学）
+>
+> 欢迎转发给相关方向的老师和同学。如需确认选题契合度，欢迎私信交流。
 
-主要方向：
-· 气候变化与极端事件下的结构响应
-· 基于性能与气候适应性的设计
-· 全寿命性能、耐久性与可持续性
-· 面向韧性的结构创新（自复位、先进材料、新型建造）
-· 试验、计算与数据驱动方法
-
-投稿开放：2026年8月1日  
-投稿截止：2027年7月31日  
-文章类型：VSI: Climate Resilient Struct
-
-中英法详情及投稿入口请扫描配图二维码。
-
-客座编辑：董优（执行，香港理工）· Emilio Bastidas-Arteaga（法国拉罗谢尔大学）· 郭弘原（香港理工）· 陈百曦（中佛罗里达大学）
-
-欢迎转发给相关方向的老师和同学；如需确认选题契合度，也欢迎私信交流。
+**步骤**：
+1. 朋友圈 → 选 1 张图 → 选 `cfp-poster-a4.png`
+2. 粘贴上面文案
+3. 发送
 
 ---
 
-## 三、发布方式说明
+## 三、LinkedIn
 
-### LinkedIn
-直接发文本帖，附上 H5 链接（系统会抓取预览卡片）。
-- **配图**：手动上传 `web/assets/cfp-social-card.png`（横版 1.91:1，1733×907），比依赖链接自动抓图更稳定。
-- og:image 已指向同一张图的绝对地址，链接预览卡片也会显示该图（双保险）。
+**配图**：直接上传 `web/assets/cfp-poster-a4.png`，并在正文中保留 ScienceDirect 官方链接与网站链接。
 
-### 朋友圈 / 微信
-朋友圈文字中的普通网址通常不可点击。可行方案：
-1. **合成配图**（推荐）：直接发 `web/assets/cfp-social-card-wechat.png`——已将真实二维码 `cfp_qr.png` 叠加到社交卡右下角（28px 白边，未经模型重绘），正文写“扫码查看中英法详情”。一张图搞定。
-2. **二维码 + 配图**：将 `web/cfp_qr.png` 与 `web/assets/cfp-social-card.png` 分两张发。
-3. **公众号图文**：如需微信内直接打开，先发公众号图文再转发。
+**文案**：
 
-### 关于秀米（Xiumi）
-- 秀米不能直接导入任意 HTML/CSS，因此不能把这套 H5 原样转成公众号图文。
-- 可以在你完成秀米登录后协助排版和检查，但账号登录、微信扫码和最终发布需要你本人确认。
-- 如果只是发朋友圈，不必经过秀米；二维码配网页截图更直接。只有需要公众号文章时，才值得再做一版秀米图文。
+> We are pleased to announce a forthcoming Special Issue of *Structures* (Elsevier):
+>
+> **Climate-Resilient Structures: Life-Cycle Performance and Structural Innovation**
+>
+> Submissions open: 1 August 2026
+> Submission deadline: 31 July 2027
+> Article type in Editorial Manager: `VSI: Climate Resilient Struct`
+>
+> Special Issue page (QR in the poster): https://www.sciencedirect.com/special-issue/334586/climate-resilient-structures-life-cycle-performance-and-structural-innovation
+>
+> Multilingual details (EN / FR / 中文): https://hyguo1993.github.io/structures-cfp/
+>
+> Submit via Editorial Manager: https://www.editorialmanager.com/STRUCTURES
+>
+> Guest Editors: You Dong (Executive Guest Editor, PolyU), Emilio Bastidas-Arteaga (La Rochelle University), Hongyuan Guo (PolyU), and Baixi Chen (UCF).
+>
+> Please share with colleagues working in these areas, and feel free to reach out to discuss fit.
+>
+> #StructuralEngineering #ClimateResilience #LifeCycleEngineering #SustainableInfrastructure #Structures
+
+**步骤**：
+1. LinkedIn → Create a post → 上传 `cfp-poster-a4.png` 作为配图
+2. 粘贴文案（链接已在文案里）
+3. 发布
+
+---
+
+## 四、备注
+
+- 海报上的二维码指向 **ScienceDirect 特刊主页**（读者扫到的是 Elsevier 官方页面，能直接跳到 Editorial Manager 投稿）
+- GitHub Pages 更新部署后将直接显示同一张 A4 单页海报；旧三语网页保存在 `archive/index-multilingual-2026-07-30.html`
+- 旧版横版 `cfp-social-card-wechat.png` 与 `poster-a4.png` 已被 `cfp-poster-a4.png` 取代；如不需要可忽略
