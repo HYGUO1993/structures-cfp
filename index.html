@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Climate-Resilient Structures — Special Issue of Structures (Elsevier)</title>
+<meta name="description" content="Call for Papers: Climate-Resilient Structures — Life-Cycle Performance and Structural Innovation. A Special Issue of Structures (Elsevier). Submission opens 1 August 2026.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Climate-Resilient Structures — Special Issue of Structures">
+<meta property="og:description" content="Call for Papers on climate-resilient structural systems, life-cycle performance, durability and structural innovation. Submission opens 1 August 2026.">
+<meta property="og:image" content="assets/cfp-social-card.png">
+<meta property="og:image:width" content="1733">
+<meta property="og:image:height" content="907">
+<meta property="og:image:alt" content="Call for Papers: Climate-Resilient Structures — Life-Cycle Performance and Structural Innovation">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:,">
+<style>
+  *,*::before,*::after{box-sizing:border-box}
+  *{margin:0}
+  :root{
+    --paper:#f4f2ec;
+    --surface:#ffffff;
+    --surface-alt:#efece3;
+    --ink:#1b1d21;
+    --muted:#6b6a62;
+    --line:#ddd9cd;
+    --line-strong:#c5beac;
+    --accent:#0e4f57;
+    --accent-2:#0a3b41;
+    --accent-soft:#e7eeef;
+    --max:1080px;
+    --serif:"Spectral","Noto Serif SC","Songti SC",Georgia,serif;
+    --sans:"IBM Plex Sans","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+  }
+  html{scroll-behavior:smooth}
+  body{
+    min-height:100vh;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--sans);
+    line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+  }
+  .topline{height:4px;background:var(--accent)}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  h1,h2,h3,.serif{font-family:var(--serif);font-weight:600;letter-spacing:-.005em}
+  p{max-width:74ch}
+
+  /* topbar */
+  .topbar{
+    position:sticky;top:0;z-index:30;
+    display:flex;align-items:center;gap:1rem;
+    padding:.7rem max(1rem,calc((100vw - var(--max))/2));
+    background:rgba(244,242,236,.9);
+    border-bottom:1px solid var(--line);
+    backdrop-filter:blur(10px);
+  }
+  .brand{display:flex;align-items:baseline;gap:.5rem;white-space:nowrap}
+  .brand strong{font-family:var(--serif);font-size:1.32rem;font-weight:700;color:var(--accent-2)}
+  .brand small{color:var(--muted);font-size:.72rem;font-weight:500;letter-spacing:.02em}
+  .spacer{flex:1}
+  .nav{display:flex;align-items:center;gap:.1rem;flex-wrap:wrap}
+  .nav a{color:var(--ink);font-size:.82rem;font-weight:500;padding:.34rem .55rem;border-radius:5px}
+  .nav a:hover{background:var(--accent-soft);color:var(--accent-2);text-decoration:none}
+  .lang{display:flex;align-items:center;gap:0;margin-left:.35rem;padding-left:.55rem;border-left:1px solid var(--line)}
+  .lang button{
+    border:0;background:transparent;cursor:pointer;
+    font-family:var(--sans);font-size:.8rem;font-weight:600;
+    color:var(--muted);padding:.34rem .4rem;border-radius:5px;
+  }
+  .lang button:hover{color:var(--ink)}
+  .lang button[aria-pressed="true"]{color:#fff;background:var(--accent)}
+  .nav-submit{
+    color:#fff;background:var(--accent);
+    padding:.42rem .8rem;border-radius:5px;font-weight:600;
+  }
+  .nav-submit:hover{background:var(--accent-2);text-decoration:none}
+
+  main{max-width:var(--max);margin:0 auto;padding:1.6rem 1.2rem 3rem}
+
+  /* hero */
+  .hero{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:1.6rem;align-items:start}
+  .eyebrow{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin-bottom:1rem}
+  .tag{
+    display:inline-flex;align-items:center;height:1.5rem;padding:0 .55rem;
+    border:1px solid var(--line-strong);border-radius:3px;
+    background:var(--surface);color:var(--accent-2);
+    font-size:.66rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;
+  }
+  .eyebrow .jnl{color:var(--muted);font-size:.72rem;font-weight:600;letter-spacing:.04em}
+  h1{font-size:clamp(2rem,4.6vw,3.5rem);line-height:1.04;max-width:18ch}
+  .subtitle{margin-top:1rem;color:#3a3a35;font-size:1.04rem;font-weight:500}
+  .abstract{margin-top:.9rem;color:#44433d;font-size:.95rem}
+  .actions{display:flex;flex-wrap:wrap;gap:.55rem;margin-top:1.3rem}
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;
+    min-height:2.5rem;padding:.6rem 1rem;border-radius:6px;
+    font-size:.86rem;font-weight:600;line-height:1;
+    border:1px solid var(--accent);
+    transition:background .15s,color .15s,border-color .15s;
+  }
+  .btn:hover{text-decoration:none}
+  .btn.primary{background:var(--accent);color:#fff}
+  .btn.primary:hover{background:var(--accent-2)}
+  .btn.ghost{background:transparent;color:var(--accent-2)}
+  .btn.ghost:hover{background:var(--accent-soft)}
+
+  .dates{
+    border:1px solid var(--line);background:var(--surface);
+    border-top:3px solid var(--accent);
+    padding:1.15rem 1.1rem;display:grid;gap:.85rem;
+  }
+  .dates .item{padding-bottom:.8rem;border-bottom:1px solid var(--line)}
+  .dates .item:last-of-type{border-bottom:0;padding-bottom:0}
+  .dates .lab{display:block;color:var(--muted);font-size:.66rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+  .dates .val{display:block;margin-top:.18rem;font-family:var(--serif);font-size:1.2rem;font-weight:600;line-height:1.1}
+  .dates .note{display:block;margin-top:.2rem;color:var(--muted);font-size:.76rem}
+
+  /* sections */
+  .section{margin-top:2.3rem}
+  .sec-head{display:flex;align-items:end;justify-content:space-between;gap:1rem;padding-bottom:.6rem;border-bottom:2px solid var(--ink)}
+  .sec-kicker{color:var(--accent);font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+  h2{font-size:clamp(1.5rem,3vw,2rem);line-height:1.1;margin-top:.15rem}
+  .sec-head a{font-size:.82rem;font-weight:600}
+
+  .scope-wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(240px,330px);gap:1.6rem;margin-top:1.3rem}
+  .scope-list{display:grid;gap:0}
+  .scope-item{display:grid;grid-template-columns:2.6rem minmax(0,1fr);gap:.9rem;padding:1rem 0;border-bottom:1px solid var(--line)}
+  .scope-item:first-child{padding-top:.2rem}
+  .scope-item:last-child{border-bottom:0}
+  .scope-num{font-family:var(--serif);font-size:1.5rem;font-weight:600;color:var(--accent);line-height:1}
+  .scope-item h3{font-size:1.1rem;color:var(--ink);line-height:1.2}
+  .scope-item ul{margin-top:.4rem;padding-left:1.1rem;color:#46453f;font-size:.9rem}
+  .scope-item li+li{margin-top:.2rem}
+
+  .side{display:grid;gap:1.1rem;align-content:start}
+  .note-card{border:1px solid var(--line);background:var(--surface);padding:1.05rem 1.05rem}
+  .note-card .t{font-weight:700;color:var(--accent-2);font-size:.86rem}
+  .note-card p{margin-top:.35rem;font-size:.86rem;color:#46453f}
+  .kw{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
+  .kw span{padding:.2rem .5rem;border:1px solid var(--line);border-radius:3px;background:var(--surface-alt);color:var(--accent-2);font-size:.72rem;font-weight:600}
+  .pull{border-left:3px solid var(--accent);background:var(--surface-alt);padding:.85rem 1rem;font-family:var(--serif);font-size:1rem;line-height:1.35;color:#3a3a35}
+
+  /* editors */
+  .editors{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.9rem;margin-top:1.3rem}
+  .ed-card{border:1px solid var(--line);background:var(--surface);padding:1rem;text-align:center;display:flex;flex-direction:column;align-items:center}
+  .ed-card img{width:96px;height:96px;border-radius:50%;object-fit:cover;object-position:50% 18%;border:1px solid var(--line-strong)}
+  .ed-card h3{margin-top:.6rem;font-size:1rem;line-height:1.15}
+  .ed-card .aff{margin-top:.2rem;color:var(--muted);font-size:.74rem;line-height:1.35}
+  .ed-card .mail{font-size:.74rem}
+  .ed-card .exp{margin-top:.55rem;padding-top:.5rem;border-top:1px solid var(--line);color:var(--accent-2);font-size:.72rem;font-weight:600;line-height:1.35}
+
+  /* submission */
+  .sub-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.9rem;margin:1.3rem 0 1rem}
+  .sub-card{border:1px solid var(--line);background:var(--surface);padding:.9rem 1rem}
+  .sub-card .lab{display:block;color:var(--muted);font-size:.66rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+  .sub-card .val{display:block;margin-top:.18rem;font-family:var(--serif);font-size:1.15rem;font-weight:600}
+  .sub-card a{display:inline-block;margin-top:.35rem;font-size:.82rem;font-weight:600}
+  .sub-p{font-size:.92rem;color:#3a3a35}
+  .sub-p+.sub-p{margin-top:.6rem}
+  .sub-actions{display:flex;flex-wrap:wrap;gap:.55rem;margin-top:1.1rem}
+
+  footer{margin-top:2.8rem;border-top:1px solid var(--line);padding:1.4rem 1.2rem 2rem;text-align:center}
+  .foot-links{display:flex;flex-wrap:wrap;justify-content:center;gap:.4rem 1rem;margin-bottom:.6rem;font-size:.82rem;font-weight:600}
+  .disclaim{max-width:80ch;margin:0 auto;color:var(--muted);font-size:.76rem}
+
+  @media(max-width:880px){
+    .hero,.scope-wrap{grid-template-columns:1fr}
+    .dates{order:-1}
+    .editors{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .sub-grid{grid-template-columns:1fr}
+  }
+  @media(max-width:640px){
+    .topbar{flex-wrap:wrap;gap:.5rem;padding:.6rem 1rem}
+    .nav{order:3;width:100%;justify-content:flex-start}
+    .lang{margin-left:0;padding-left:0;border-left:0}
+    .editors{grid-template-columns:1fr}
+    main{padding:1.2rem 1rem 2.5rem}
+  }
+  @media print{
+    body{background:#fff}
+    .topline,.topbar,.lang,.btn{display:none}
+    .section{break-inside:avoid}
+  }
+</style>
+<style>
+  *,*::before,*::after{letter-spacing:0}
+  :root{
+    --paper:#fff;--surface:#f4f5f3;--surface-alt:#e9eeed;
+    --ink:#182126;--muted:#5d686e;--line:#d6dcdd;--line-strong:#aeb8bb;
+    --accent:#075b63;--accent-2:#03464d;--accent-soft:#e9eeed;--signal:#e86f2d;
+    --max:1120px;
+    --sans:Arial,"Helvetica Neue","Noto Sans CJK SC","Source Han Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+    --serif:var(--sans);
+  }
+  body{background:var(--paper);font-family:var(--sans);line-height:1.58}
+  h1,h2,h3,.serif{font-family:var(--sans);font-weight:650}
+  .topline{height:3px;background:var(--signal)}
+  .topbar{
+    min-height:64px;padding:.65rem max(1.25rem,calc((100vw - var(--max))/2));
+    background:rgba(255,255,255,.96);backdrop-filter:blur(8px)
+  }
+  .brand strong{font-family:var(--sans);font-size:1.26rem;color:var(--ink)}
+  .brand strong::after{content:"";display:inline-block;width:7px;height:7px;margin-left:.42rem;background:var(--signal)}
+  .brand small{font-size:.72rem;letter-spacing:0}
+  .nav a{font-size:.78rem;font-weight:600;padding:.38rem .5rem;border-radius:2px}
+  .nav a:hover{background:var(--surface-alt);color:var(--accent-2)}
+  .lang button{font-family:var(--sans);font-size:.75rem;font-weight:700;padding:.36rem .42rem;border-radius:2px}
+  .nav-submit{padding:.43rem .78rem;border-radius:2px;font-weight:700}
+  main{padding:2.7rem 1.25rem 4rem}
+
+  .hero{grid-template-columns:minmax(0,1fr) 310px;gap:3.5rem}
+  .eyebrow{gap:.55rem 1rem;margin-bottom:1.35rem}
+  .tag{
+    min-height:1.4rem;height:auto;padding:0;border:0;border-bottom:2px solid var(--signal);
+    border-radius:0;background:transparent;color:var(--ink);font-size:.68rem;letter-spacing:0
+  }
+  .eyebrow .jnl{font-size:.72rem;letter-spacing:0}
+  h1{font-size:3rem;line-height:1.06;max-width:20ch}
+  .subtitle{margin-top:1.25rem;color:#354147;font-size:1.08rem;font-weight:600;line-height:1.5}
+  .abstract{margin-top:1rem;color:#4d595f;font-size:.94rem}
+  .actions{margin-top:1.6rem}
+  .btn{min-height:2.55rem;padding:.62rem .95rem;border-radius:2px;font-size:.82rem;font-weight:700;transition:none}
+  .btn.ghost:hover{background:var(--surface-alt)}
+  .dates{border:0;border-left:4px solid var(--signal);background:var(--surface);padding:1.35rem 1.4rem;gap:1rem}
+  .dates .item{padding-bottom:.95rem}
+  .dates .lab{font-size:.66rem;letter-spacing:0}
+  .dates .val{margin-top:.2rem;font-family:var(--sans);font-size:1.08rem;font-weight:700;line-height:1.2}
+
+  .section{margin-top:4.2rem}
+  .sec-head{padding-bottom:.75rem}
+  .sec-kicker{font-size:.68rem;letter-spacing:0}
+  h2{font-size:1.85rem;line-height:1.15;margin-top:.18rem}
+  .scope-wrap{grid-template-columns:minmax(0,1fr) minmax(260px,330px);gap:3rem;margin-top:1.4rem}
+  .scope-item{grid-template-columns:2.8rem minmax(0,1fr);gap:1rem;padding:1.15rem 0}
+  .scope-num{font-family:var(--sans);font-size:.72rem;font-weight:700;color:var(--signal);line-height:1.55}
+  .scope-item h3{font-size:1.03rem;line-height:1.3}
+  .scope-item ul{margin-top:.5rem;padding-left:1.05rem;color:#4d595f;font-size:.88rem}
+  .scope-item li+li{margin-top:.28rem}
+  .note-card{border:0;background:var(--surface);padding:1.25rem}
+  .note-card .t{color:var(--accent-2);font-size:.84rem}
+  .note-card p{margin-top:.4rem;font-size:.84rem;color:#4d595f}
+  .kw{gap:.25rem .7rem;margin-top:.85rem}
+  .kw span{padding:0;border:0;border-radius:0;background:transparent;color:var(--accent-2);font-size:.71rem}
+  .kw span::before{content:"/";margin-right:.35rem;color:var(--signal)}
+  .pull{border-left:3px solid var(--accent);background:transparent;padding:.2rem 0 .2rem 1rem;font-family:var(--sans);font-size:.92rem;line-height:1.5;color:#3f4a50}
+
+  .editors{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 2rem;margin-top:1.35rem;border-top:1px solid var(--line)}
+  .ed-card{
+    min-width:0;border:0;border-bottom:1px solid var(--line);background:transparent;padding:1.25rem 0;text-align:left;
+    display:grid;grid-template-columns:88px minmax(0,1fr);grid-template-rows:auto auto auto 1fr;column-gap:1rem;align-items:start
+  }
+  .ed-card img{grid-row:1/-1;width:88px;height:104px;border:0;border-radius:2px;object-fit:cover;object-position:50% 18%;filter:saturate(.88)}
+  .ed-card h3{margin-top:0;font-size:1rem;line-height:1.25}
+  .ed-card .aff{margin-top:.2rem;font-size:.73rem;line-height:1.4}
+  .ed-card .mail{font-size:.72rem;overflow-wrap:anywhere}
+  .ed-card .exp{align-self:end;margin-top:.5rem;padding-top:0;border-top:0;color:var(--accent-2);font-size:.69rem;line-height:1.4}
+
+  .sub-grid{gap:0;margin:1.35rem 0 1.25rem;background:var(--surface)}
+  .sub-card{border:0;border-right:1px solid var(--line);background:transparent;padding:1.1rem 1.2rem}
+  .sub-card:last-child{border-right:0}
+  .sub-card .lab{letter-spacing:0}
+  .sub-card .val{font-family:var(--sans);font-size:1.05rem;font-weight:700}
+  .sub-p{font-size:.9rem;color:#3f4a50}
+  footer{padding:1.7rem 1.2rem 2.2rem;background:var(--surface)}
+
+  @media(max-width:880px){
+    .hero{grid-template-columns:1fr;gap:1.75rem}
+    .dates{order:0}
+    .scope-wrap{grid-template-columns:1fr}
+    .sub-card{border-right:0;border-bottom:1px solid var(--line)}
+    .sub-card:last-child{border-bottom:0}
+  }
+  @media(max-width:640px){
+    .topbar{position:static;gap:.45rem}
+    .brand{width:100%}
+    .nav>a:not(.nav-submit){display:none}
+    main{padding:1.7rem 1rem 3rem}
+    h1{font-size:2.2rem;line-height:1.1}
+    h2{font-size:1.55rem}
+    .subtitle{font-size:1rem}
+    .section{margin-top:3.2rem}
+    .sec-head{align-items:start}
+    .sec-head>a{display:none}
+    .editors{grid-template-columns:1fr}
+    .ed-card{grid-template-columns:76px minmax(0,1fr)}
+    .ed-card img{width:76px;height:92px}
+    .actions,.sub-actions{display:grid;grid-template-columns:1fr}
+    .btn{width:100%}
+  }
+</style>
+</head>
+<body>
+<div class="topline"></div>
+
+<header class="topbar">
+  <a class="brand" href="https://www.sciencedirect.com/journal/structures" target="_blank" rel="noopener">
+    <strong>Structures</strong><small data-i18n="brand-caption">Elsevier · ScienceDirect</small>
+  </a>
+  <nav class="nav" aria-label="Primary">
+    <a href="#scope" data-i18n="nav-scope">Scope</a>
+    <a href="#editors" data-i18n="nav-editors">Guest Editors</a>
+    <a href="#submission" data-i18n="nav-submission">For Authors</a>
+    <a href="https://www.sciencedirect.com/special-issue/334586/climate-resilient-structures-life-cycle-performance-and-structural-innovation" target="_blank" rel="noopener" data-i18n="nav-sipage">Special Issue Page</a>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="fr" aria-pressed="false">FR</button>
+      <button type="button" data-lang="zh" aria-pressed="false">中文</button>
+    </div>
+    <a class="nav-submit" href="https://www.editorialmanager.com/STRUCTURES" target="_blank" rel="noopener" data-i18n="nav-submit">Submit</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="call">
+    <div>
+      <div class="eyebrow">
+        <span class="tag" data-i18n="tag-cfp">Call for Papers</span>
+        <span class="tag" data-i18n="tag-si">Special Issue</span>
+        <span class="jnl">Structures · Elsevier</span>
+      </div>
+      <h1 data-i18n="hero-title">Climate-Resilient Structures: Life-Cycle Performance and Structural Innovation</h1>
+      <p class="subtitle" data-i18n="hero-subtitle">A Special Issue on structural performance, durability, sustainability, and innovative systems under changing climate conditions.</p>
+      <p class="abstract" data-i18n="hero-abstract">Climate change is intensifying the environmental demands placed on the built environment, affecting the long-term durability and life-cycle performance of structures. This Special Issue welcomes original research and review articles on climate-resilient structural systems, performance-based design, life-cycle assessment, degradation mechanisms, and structural innovations such as self-centering systems, advanced materials, and novel construction methods.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://www.editorialmanager.com/STRUCTURES" target="_blank" rel="noopener" data-i18n="btn-submit">Submit via Editorial Manager</a>
+        <a class="btn ghost" href="https://www.sciencedirect.com/special-issue/334586/climate-resilient-structures-life-cycle-performance-and-structural-innovation" target="_blank" rel="noopener" data-i18n="btn-view">View ScienceDirect Page</a>
+        <a class="btn ghost" href="https://shop.elsevier.com/journals/structures/2352-0124" target="_blank" rel="noopener" data-i18n="btn-guide">Guide for Authors</a>
+      </div>
+    </div>
+    <aside class="dates" aria-label="Key dates">
+      <div class="item">
+        <span class="lab" data-i18n="dl-open-label">Submission Opens</span>
+        <span class="val" data-i18n="dl-open-date">1 August 2026</span>
+        <span class="note" data-i18n="dl-open-note">Manuscripts may be submitted once the portal is open.</span>
+      </div>
+      <div class="item">
+        <span class="lab" data-i18n="dl-deadline-label">Submission Deadline</span>
+        <span class="val" data-i18n="dl-deadline-date">31 July 2027</span>
+        <span class="note" data-i18n="dl-deadline-note">Select the Special Issue article type during submission.</span>
+      </div>
+      <div class="item">
+        <span class="lab" data-i18n="dl-type-label">Article Type</span>
+        <span class="val">VSI: Climate Resilient Struct</span>
+        <span class="note" data-i18n="dl-type-note">Use this short title in Editorial Manager.</span>
+      </div>
+      <a class="btn primary" href="mailto:you.dong@polyu.edu.hk?subject=Structures%20Special%20Issue%20Inquiry%20-%20Climate%20Resilient%20Structures" data-i18n="dl-contact">Contact Executive Guest Editor</a>
+    </aside>
+  </section>
+
+  <section class="section" id="scope">
+    <div class="sec-head">
+      <div>
+        <div class="sec-kicker" data-i18n="scope-kicker">Research Scope</div>
+        <h2 data-i18n="scope-title">Topics of Interest</h2>
+      </div>
+      <a href="#submission" data-i18n="scope-link">Submission details →</a>
+    </div>
+    <div class="scope-wrap">
+      <div class="scope-list" id="scopeList"></div>
+      <aside class="side">
+        <div class="note-card">
+          <span class="t" data-i18n="note-title">Preferred contributions</span>
+          <p data-i18n="note-text">High-quality original research articles and comprehensive reviews that connect structural engineering with climate risk, life-cycle performance, sustainability, and implementable innovation.</p>
+          <div class="kw" id="keywords"></div>
+        </div>
+        <p class="pull" data-i18n="quote-text">The issue aims to connect climate-aware performance assessment with structural systems that can adapt, recover, and remain sustainable over their service life.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section" id="editors">
+    <div class="sec-head">
+      <div>
+        <div class="sec-kicker" data-i18n="ed-kicker">Editorial Team</div>
+        <h2 data-i18n="ed-title">Guest Editors</h2>
+      </div>
+      <a href="https://www.elsevier.com/editor/role/guest" target="_blank" rel="noopener" data-i18n="ed-info">Guest editor role →</a>
+    </div>
+    <div class="editors" id="editorsGrid"></div>
+  </section>
+
+  <section class="section" id="submission">
+    <div class="sec-head">
+      <div>
+        <div class="sec-kicker" data-i18n="sub-kicker">For Authors</div>
+        <h2 data-i18n="sub-title">Manuscript Submission Information</h2>
+      </div>
+      <a href="#call" data-i18n="sub-back">Back to top ↑</a>
+    </div>
+    <div class="sub-grid">
+      <div class="sub-card">
+        <span class="lab" data-i18n="c1-label">Submission Portal</span>
+        <strong class="val">Editorial Manager</strong>
+        <a href="https://www.editorialmanager.com/STRUCTURES" target="_blank" rel="noopener" data-i18n="c1-link">Open submission system →</a>
+      </div>
+      <div class="sub-card">
+        <span class="lab" data-i18n="c2-label">Journal Resources</span>
+        <strong class="val">Structures</strong>
+        <a href="https://shop.elsevier.com/journals/structures/2352-0124" target="_blank" rel="noopener" data-i18n="c2-link">Read Guide for Authors →</a>
+      </div>
+      <div class="sub-card">
+        <span class="lab" data-i18n="c3-label">Special Issue Page</span>
+        <strong class="val">ScienceDirect</strong>
+        <a href="https://www.sciencedirect.com/special-issue/334586/climate-resilient-structures-life-cycle-performance-and-structural-innovation" target="_blank" rel="noopener" data-i18n="c3-link">View article collection →</a>
+      </div>
+    </div>
+    <p class="sub-p" data-i18n="sub-p1">Authors should prepare manuscripts according to the journal's Guide for Authors and submit through Editorial Manager. During online submission, select the article type "VSI: Climate Resilient Struct" to ensure the manuscript is routed to this Special Issue.</p>
+    <p class="sub-p" data-i18n="sub-p2">For questions about topic fit, contact Prof. You Dong. For general special issue questions, see Elsevier's author FAQ and special issue guidance.</p>
+    <div class="sub-actions">
+      <a class="btn primary" href="https://www.editorialmanager.com/STRUCTURES" target="_blank" rel="noopener" data-i18n="act-submit">Submit Manuscript</a>
+      <a class="btn ghost" href="https://www.elsevier.com/researcher/author/submit-your-paper/special-issues/special-issue-invitation-faqs" target="_blank" rel="noopener" data-i18n="act-faq">Special Issue FAQs</a>
+      <a class="btn ghost" href="https://www.elsevier.com/researcher/author/submit-your-paper/special-issues" target="_blank" rel="noopener" data-i18n="act-benefits">Benefits of Special Issues</a>
+      <a class="btn ghost" href="mailto:you.dong@polyu.edu.hk;ebastida@univ-lr.fr;hongyguo@polyu.edu.hk;baixi.chen@ucf.edu?subject=Structures%20Special%20Issue%20Inquiry" data-i18n="act-email">Email Guest Editors</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="foot-links">
+    <a href="https://www.sciencedirect.com/special-issue/334586/climate-resilient-structures-life-cycle-performance-and-structural-innovation" target="_blank" rel="noopener" data-i18n="foot-sipage">Official Special Issue Page</a>
+    <a href="https://www.editorialmanager.com/STRUCTURES" target="_blank" rel="noopener" data-i18n="foot-portal">Submission Portal</a>
+    <a href="mailto:you.dong@polyu.edu.hk;ebastida@univ-lr.fr;hongyguo@polyu.edu.hk;baixi.chen@ucf.edu?subject=Structures%20Special%20Issue%20Inquiry" data-i18n="foot-contact">Contact Guest Editors</a>
+  </div>
+  <p class="disclaim" data-i18n="disclaimer">This promotional CFP page was prepared by the Guest Editors to share information about the Special Issue. It is not an official Elsevier or ScienceDirect webpage. Please refer to the official Special Issue page, the journal Guide for Authors, and Editorial Manager for authoritative submission information.</p>
+</footer>
+
+<script>
+const T = {
+  en: {
+    _title:"Climate-Resilient Structures — Special Issue of Structures (Elsevier)",
+    _desc:"Call for Papers: Climate-Resilient Structures — Life-Cycle Performance and Structural Innovation. A Special Issue of Structures (Elsevier). Submission opens 1 August 2026.",
+    "brand-caption":"Elsevier · ScienceDirect",
+    "nav-scope":"Scope","nav-editors":"Guest Editors","nav-submission":"For Authors",
+    "nav-sipage":"Special Issue Page","nav-submit":"Submit",
+    "tag-cfp":"Call for Papers","tag-si":"Special Issue",
+    "hero-title":"Climate-Resilient Structures: Life-Cycle Performance and Structural Innovation",
+    "hero-subtitle":"A Special Issue on structural performance, durability, sustainability, and innovative systems under changing climate conditions.",
+    "hero-abstract":"Climate change is intensifying the environmental demands placed on the built environment, affecting the long-term durability and life-cycle performance of structures. This Special Issue welcomes original research and review articles on climate-resilient structural systems, performance-based design, life-cycle assessment, degradation mechanisms, and structural innovations such as self-centering systems, advanced materials, and novel construction methods.",
+    "btn-submit":"Submit via Editorial Manager","btn-view":"View ScienceDirect Page","btn-guide":"Guide for Authors",
+    "dl-open-label":"Submission Opens","dl-open-date":"1 August 2026","dl-open-note":"Manuscripts may be submitted once the portal is open.",
+    "dl-deadline-label":"Submission Deadline","dl-deadline-date":"31 July 2027","dl-deadline-note":"Select the Special Issue article type during submission.",
+    "dl-type-label":"Article Type","dl-type-note":"Use this short title in Editorial Manager.",
+    "dl-contact":"Contact Executive Guest Editor",
+    "scope-kicker":"Research Scope","scope-title":"Topics of Interest","scope-link":"Submission details →",
+    "note-title":"Preferred contributions",
+    "note-text":"High-quality original research articles and comprehensive reviews that connect structural engineering with climate risk, life-cycle performance, sustainability, and implementable innovation.",
+    "quote-text":"The issue aims to connect climate-aware performance assessment with structural systems that can adapt, recover, and remain sustainable over their service life.",
+    "ed-kicker":"Editorial Team","ed-title":"Guest Editors","ed-info":"Guest editor role →",
+    "sub-kicker":"For Authors","sub-title":"Manuscript Submission Information","sub-back":"Back to top ↑",
+    "c1-label":"Submission Portal","c1-link":"Open submission system →",
+    "c2-label":"Journal Resources","c2-link":"Read Guide for Authors →",
+    "c3-label":"Special Issue Page","c3-link":"View article collection →",
+    "sub-p1":"Authors should prepare manuscripts according to the journal's Guide for Authors and submit through Editorial Manager. During online submission, select the article type \"VSI: Climate Resilient Struct\" to ensure the manuscript is routed to this Special Issue.",
+    "sub-p2":"For questions about topic fit, contact Prof. You Dong. For general special issue questions, see Elsevier's author FAQ and special issue guidance.",
+    "act-submit":"Submit Manuscript","act-faq":"Special Issue FAQs","act-benefits":"Benefits of Special Issues","act-email":"Email Guest Editors",
+    "foot-sipage":"Official Special Issue Page","foot-portal":"Submission Portal","foot-contact":"Contact Guest Editors",
+    "disclaimer":"This promotional CFP page was prepared by the Guest Editors to share information about the Special Issue. It is not an official Elsevier or ScienceDirect webpage. Please refer to the official Special Issue page, the journal Guide for Authors, and Editorial Manager for authoritative submission information.",
+    scope:[
+      ["Structural response to climate change and extreme events",["Performance under intensified wind loads, hurricanes, tornadoes, heatwaves, and wildfires.","Resilience against sea-level rise, storm surges, severe flooding, and climate-induced soil degradation.","Multi-hazard and cascading effects in buildings, bridges, transportation, and coastal infrastructure."]],
+      ["Performance-based engineering and climate-adaptive design",["Design frameworks that incorporate climate projections and non-stationary hazards.","Reliability-based, probabilistic, and risk-informed assessment of new and existing structures.","Climate-adaptive design codes, safety factors, and decision-support methods."]],
+      ["Life-cycle performance, durability, and sustainability",["Life-cycle cost, reliability, and environmental assessment under evolving exposure conditions.","Structural degradation, corrosion, material aging, and maintenance planning.","Low-carbon materials, circular design, deconstruction, and resilience–carbon tradeoffs."]],
+      ["Structural innovation for enhanced resilience",["Self-centering systems, base isolation, adaptive damping, and rapid-recovery structural concepts.","Advanced materials including UHPC, FRP, shape memory alloys, and mass timber systems.","Novel construction, modular systems, and smart construction methods for adaptation and recovery."]],
+      ["Experimental, computational, and data-driven advances",["Large-scale experiments and climate-related loading simulations.","Advanced numerical modeling, digital twins, AI-driven analytics, and structural health monitoring.","Hybrid physics-informed and data-driven models for climate risk prediction."]]
+    ],
+    keywords:["Climate-resilient structures","Life-cycle performance","Structural durability","Structural innovation","Performance-based design","Extreme events","Digital twins","AI-driven analytics"]
+  },
+  fr: {
+    _title:"Structures résilientes au climat — Numéro spécial de Structures (Elsevier)",
+    _desc:"Appel à communications : Structures résilientes au climat — performance sur le cycle de vie et innovation structurelle. Numéro spécial de Structures (Elsevier). Ouverture des soumissions le 1 août 2026.",
+    "brand-caption":"Elsevier · ScienceDirect",
+    "nav-scope":"Thématiques","nav-editors":"Éditeurs invités","nav-submission":"Pour les auteurs",
+    "nav-sipage":"Page du numéro spécial","nav-submit":"Soumettre",
+    "tag-cfp":"Appel à communications","tag-si":"Numéro spécial",
+    "hero-title":"Structures résilientes au climat : performance sur le cycle de vie et innovation structurelle",
+    "hero-subtitle":"Un numéro spécial consacré à la performance, à la durabilité, à la soutenabilité et aux systèmes innovants des structures face à l'évolution du climat.",
+    "hero-abstract":"Le changement climatique accroît les contraintes environnementales pesant sur le bâti, affectant la durabilité à long terme et la performance sur le cycle de vie des structures. Ce numéro spécial accueille articles de recherche originaux et synthèses portant sur les systèmes structurels résilients au climat, la conception basée sur la performance, l'évaluation du cycle de vie, les mécanismes de dégradation, ainsi que les innovations structurelles telles que les systèmes auto-centrants, les matériaux avancés et les nouvelles méthodes de construction.",
+    "btn-submit":"Soumettre via Editorial Manager","btn-view":"Voir la page ScienceDirect","btn-guide":"Guide pour les auteurs",
+    "dl-open-label":"Ouverture des soumissions","dl-open-date":"1 août 2026","dl-open-note":"Les manuscrits peuvent être soumis dès l'ouverture du portail.",
+    "dl-deadline-label":"Date limite de soumission","dl-deadline-date":"31 juillet 2027","dl-deadline-note":"Sélectionnez le type d'article du numéro spécial lors de la soumission.",
+    "dl-type-label":"Type d'article","dl-type-note":"Utilisez ce titre abrégé dans Editorial Manager.",
+    "dl-contact":"Contacter l'éditeur invité principal",
+    "scope-kicker":"Périmètre de recherche","scope-title":"Thématiques","scope-link":"Détails de soumission →",
+    "note-title":"Contributions recherchées",
+    "note-text":"Articles de recherche originaux de haute qualité et synthèses approfondies reliant le génie structurel au risque climatique, à la performance sur le cycle de vie, à la soutenabilité et à l'innovation opérationnelle.",
+    "quote-text":"Ce numéro vise à relier l'évaluation de la performance prenant en compte le climat à des systèmes structurels capables de s'adapter, de se rétablir et de demeurer durables tout au long de leur durée de vie.",
+    "ed-kicker":"Équipe éditoriale","ed-title":"Éditeurs invités","ed-info":"Rôle d'éditeur invité →",
+    "sub-kicker":"Pour les auteurs","sub-title":"Informations de soumission des manuscrits","sub-back":"Retour en haut ↑",
+    "c1-label":"Portail de soumission","c1-link":"Ouvrir le système de soumission →",
+    "c2-label":"Ressources de la revue","c2-link":"Lire le guide pour les auteurs →",
+    "c3-label":"Page du numéro spécial","c3-link":"Voir la collection d'articles →",
+    "sub-p1":"Les auteurs doivent préparer leurs manuscrits conformément au Guide pour les auteurs de la revue et les soumettre via Editorial Manager. Lors de la soumission en ligne, sélectionnez le type d'article « VSI: Climate Resilient Struct » afin que le manuscrit soit orienté vers ce numéro spécial.",
+    "sub-p2":"Pour toute question sur l'adéquation du sujet, contactez le Pr. You Dong. Pour les questions générales sur le numéro spécial, consultez la FAQ et les conseils d'Elsevier.",
+    "act-submit":"Soumettre un manuscrit","act-faq":"FAQ du numéro spécial","act-benefits":"Avantages des numéros spéciaux","act-email":"Écrire aux éditeurs invités",
+    "foot-sipage":"Page officielle du numéro spécial","foot-portal":"Portail de soumission","foot-contact":"Contacter les éditeurs invités",
+    "disclaimer":"Cette page promotionnelle d'appel à communications a été préparée par les éditeurs invités afin de diffuser des informations sur le numéro spécial. Elle n'est pas une page officielle d'Elsevier ou de ScienceDirect. Veuillez vous référer à la page officielle du numéro spécial, au Guide pour les auteurs et à Editorial Manager pour les informations de soumission faisant foi.",
+    scope:[
+      ["Réponse des structures au changement climatique et aux événements extrêmes",["Comportement sous des charges de vent intensifiées, ouragans, tornades, vagues de chaleur et incendies de forêt.","Résilience face à l'élévation du niveau de la mer, aux ondes de tempête, aux inondations sévères et à la dégradation des sols induite par le climat.","Effets multi-aléas et en cascade sur les bâtiments, ponts, infrastructures de transport et infrastructures côtières."]],
+      ["Ingénierie basée sur la performance et conception adaptée au climat",["Cadres de conception intégrant les projections climatiques et les aléas non stationnaires.","Évaluation fondée sur la fiabilité, probabiliste et informée par le risque des structures neuves et existantes.","Codes de conception adaptés au climat, coefficients de sécurité et méthodes d'aide à la décision."]],
+      ["Performance sur le cycle de vie, durabilité et soutenabilité",["Évaluation des coûts, de la fiabilité et de l'impact environnemental sur le cycle de vie en conditions d'exposition changeantes.","Dégradation structurelle, corrosion, vieillissement des matériaux et planification de la maintenance.","Matériaux bas carbone, conception circulaire, déconstruction et compromis résilience–carbone."]],
+      ["Innovation structurelle pour une résilience accrue",["Systèmes auto-centrants, isolation à la base, amortissement adaptatif et concepts à récupération rapide.","Matériaux avancés incluant les BTHP, les PRF, les alliages à mémoire de forme et les systèmes en bois massif.","Nouvelles méthodes de construction, systèmes modulaires et méthodes de construction intelligentes pour l'adaptation et la remise en état."]],
+      ["Avancées expérimentales, numériques et pilotées par les données",["Expériences à grande échelle et simulations de chargements liés au climat.","Modélisation numérique avancée, jumeaux numériques, analytique pilotée par l'IA et surveillance de santé des structures.","Modèles hybrides à information physique et pilotés par les données pour la prédiction du risque climatique."]]
+    ],
+    keywords:["Climate-resilient structures","Life-cycle performance","Structural durability","Structural innovation","Performance-based design","Extreme events","Digital twins","AI-driven analytics"]
+  },
+  zh: {
+    _title:"气候韧性结构 — Structures 期刊特刊（Elsevier）征稿",
+    _desc:"征稿启事：气候韧性结构——全寿命性能与结构创新。Structures（Elsevier）特刊。投稿开放：2026年8月1日。",
+    "brand-caption":"爱思唯尔 · ScienceDirect",
+    "nav-scope":"征稿范围","nav-editors":"客座编辑","nav-submission":"投稿信息",
+    "nav-sipage":"特刊主页","nav-submit":"投稿",
+    "tag-cfp":"征稿启事","tag-si":"特刊",
+    "hero-title":"气候韧性结构：全寿命性能与结构创新",
+    "hero-subtitle":"本特刊聚焦气候变化背景下结构的性能、耐久性、可持续性与创新体系。",
+    "hero-abstract":"气候变化正在加剧建成环境所承受的环境荷载，影响结构的长期耐久性与全寿命性能。本特刊欢迎围绕气候韧性结构体系、基于性能的设计、全寿命评估、退化机理，以及自复位系统、先进材料、新型建造方法等结构创新展开的原创研究与综述。",
+    "btn-submit":"经 Editorial Manager 投稿","btn-view":"查看 ScienceDirect 页面","btn-guide":"作者投稿指南",
+    "dl-open-label":"投稿开放","dl-open-date":"2026年8月1日","dl-open-note":"投稿系统开放后即可提交。",
+    "dl-deadline-label":"投稿截止","dl-deadline-date":"2027年7月31日","dl-deadline-note":"投稿时请选择本特刊对应的文章类型。",
+    "dl-type-label":"文章类型","dl-type-note":"在 Editorial Manager 中请使用此简称。",
+    "dl-contact":"联系执行客座编辑",
+    "scope-kicker":"征稿范围","scope-title":"研究主题","scope-link":"投稿详情 →",
+    "note-title":"征稿偏好",
+    "note-text":"高质量原创研究论文与系统性综述，将结构工程与气候风险、全寿命性能、可持续性及可落地的创新相联通。",
+    "quote-text":"本特刊旨在将气候感知的性能评估，与能够适应、恢复并在服役期内保持可持续的结构体系相连接。",
+    "ed-kicker":"编辑团队","ed-title":"客座编辑","ed-info":"客座编辑职责 →",
+    "sub-kicker":"投稿信息","sub-title":"投稿须知","sub-back":"返回顶部 ↑",
+    "c1-label":"投稿系统","c1-link":"进入投稿系统 →",
+    "c2-label":"期刊资源","c2-link":"阅读投稿指南 →",
+    "c3-label":"特刊主页","c3-link":"查看文章合集 →",
+    "sub-p1":"作者请根据期刊《投稿指南》准备稿件，并通过 Editorial Manager 提交。在线投稿时，请选择文章类型“VSI: Climate Resilient Struct”，以确保稿件进入本特刊审稿流程。",
+    "sub-p2":"如不确定选题是否契合，请联系董优教授；其他特刊相关问题，请参阅 Elsevier 作者常见问题与特刊指引。",
+    "act-submit":"提交稿件","act-faq":"特刊常见问题","act-benefits":"特刊的优势","act-email":"邮件联系客座编辑",
+    "foot-sipage":"特刊官方主页","foot-portal":"投稿系统","foot-contact":"联系客座编辑",
+    "disclaimer":"本征稿宣传页由客座编辑编制，用于分享特刊信息，并非 Elsevier 或 ScienceDirect 官方页面。权威投稿信息请以特刊官方主页、期刊《投稿指南》及 Editorial Manager 为准。",
+    scope:[
+      ["结构对气候变化与极端事件的响应",["在增强风荷载、飓风、龙卷风、热浪与野火作用下的性能表现。","应对海平面上升、风暴潮、严重洪涝及气候诱发土壤退化的韧性。","建筑、桥梁、交通与海岸基础设施中的多灾害及连锁效应。"]],
+      ["基于性能的工程与气候适应性设计",["纳入气候预测与非平稳灾害的设计框架。","既有与新建结构基于可靠性、概率与风险信息的评估。","气候适应性设计规范、安全系数与决策支持方法。"]],
+      ["全寿命性能、耐久性与可持续性",["演化暴露条件下的全寿命成本、可靠性与环境评估。","结构退化、腐蚀、材料老化与维护规划。","低碳材料、循环设计、可拆解性与韧性—碳权衡。"]],
+      ["面向高韧性的结构创新",["自复位系统、基础隔震、自适应阻尼与快速恢复结构概念。","先进材料，包括超高性能混凝土（UHPC）、纤维增强复合材料（FRP）、形状记忆合金与工程木结构。","面向适应与恢复的新型建造、模块化体系与智能建造方法。"]],
+      ["试验、计算与数据驱动的进展",["大尺度试验与气候相关荷载模拟。","先进数值建模、数字孪生、人工智能驱动的分析与结构健康监测。","面向气候风险预测的物理信息—数据驱动混合模型。"]]
+    ],
+    keywords:["Climate-resilient structures","Life-cycle performance","Structural durability","Structural innovation","Performance-based design","Extreme events","Digital twins","AI-driven analytics"]
+  }
+};
+
+const EDITORS = [
+  {name:{en:"Prof. You Dong",fr:"Pr. You Dong",zh:"董优 教授"}, img:"assets/you-dong.jpg", mail:"you.dong@polyu.edu.hk",
+   aff:{en:"The Hong Kong Polytechnic University, Hong Kong SAR, China",fr:"The Hong Kong Polytechnic University, Hong Kong SAR, China",zh:"香港理工大学，中国香港"},
+   exp:{en:"Climate resilience | Structural performance | Performance-based design | Extreme events",fr:"Résilience au climat | Performance structurelle | Conception basée sur la performance | Événements extrêmes",zh:"气候韧性 | 结构性能 | 基于性能的设计 | 极端事件"}},
+  {name:{en:"Prof. Emilio Bastidas-Arteaga",fr:"Pr. Emilio Bastidas-Arteaga",zh:"Prof. Emilio Bastidas-Arteaga"}, img:"assets/emilio-bastidas-arteaga.jpg", mail:"ebastida@univ-lr.fr",
+   aff:{en:"La Rochelle University, France",fr:"La Rochelle University, France",zh:"法国拉罗谢尔大学"},
+   exp:{en:"Structural durability | Corrosion | Life-cycle performance | Structural materials",fr:"Durabilité structurelle | Corrosion | Performance sur le cycle de vie | Matériaux structurels",zh:"结构耐久性 | 腐蚀 | 全寿命性能 | 结构材料"}},
+  {name:{en:"Dr. Hongyuan Guo",fr:"Dr Hongyuan Guo",zh:"郭弘原 博士"}, img:"assets/hongyuan-guo.jpg", mail:"hongyguo@polyu.edu.hk",
+   aff:{en:"The Hong Kong Polytechnic University, Hong Kong SAR, China",fr:"The Hong Kong Polytechnic University, Hong Kong SAR, China",zh:"香港理工大学，中国香港"},
+   exp:{en:"Life-cycle assessment | Machine learning | Structural degradation | Structural mechanics",fr:"Évaluation du cycle de vie | Apprentissage automatique | Dégradation structurelle | Mécanique des structures",zh:"全寿命评估 | 机器学习 | 结构退化 | 结构力学"}},
+  {name:{en:"Dr. Baixi Chen",fr:"Dr Baixi Chen",zh:"陈百曦 博士"}, img:"assets/baixi-chen.jpg", mail:"baixi.chen@ucf.edu",
+   aff:{en:"University of Central Florida, Orlando, FL 32816, USA",fr:"University of Central Florida, Orlando, FL 32816, USA",zh:"美国中佛罗里达大学（奥兰多，FL 32816）"},
+   exp:{en:"Data-driven modeling | Structural 3D printing | Uncertainty quantification | Computational Mechanics",fr:"Modélisation pilotée par les données | Impression 3D structurelle | Quantification des incertitudes | Mécanique computationnelle",zh:"数据驱动建模 | 结构三维打印 | 不确定性量化 | 计算力学"}}
+];
+
+const ROMAN=["I","II","III","IV","V"];
+
+function renderScope(lang){
+  const list=document.getElementById("scopeList");
+  list.innerHTML="";
+  T[lang].scope.forEach((it,i)=>{
+    const a=document.createElement("article");
+    a.className="scope-item";
+    const num=document.createElement("span");num.className="scope-num";num.textContent=ROMAN[i];
+    const d=document.createElement("div");
+    const h=document.createElement("h3");h.textContent=it[0];
+    const ul=document.createElement("ul");
+    it[1].forEach(t=>{const li=document.createElement("li");li.textContent=t;ul.appendChild(li);});
+    d.appendChild(h);d.appendChild(ul);
+    a.appendChild(num);a.appendChild(d);
+    list.appendChild(a);
+  });
+}
+
+function renderKeywords(lang){
+  const k=document.getElementById("keywords");
+  k.innerHTML="";
+  T[lang].keywords.forEach(w=>{const s=document.createElement("span");s.textContent=w;k.appendChild(s);});
+}
+
+function renderEditors(lang){
+  const g=document.getElementById("editorsGrid");
+  g.innerHTML="";
+  EDITORS.forEach(e=>{
+    const c=document.createElement("article");c.className="ed-card";
+    const img=document.createElement("img");
+    img.src=e.img;img.alt=e.name[lang];img.loading="lazy";img.decoding="async";
+    const h=document.createElement("h3");h.textContent=e.name[lang];
+    const aff=document.createElement("p");aff.className="aff";aff.textContent=e.aff[lang];
+    const mail=document.createElement("p");mail.className="mail";
+    const ma=document.createElement("a");ma.href="mailto:"+e.mail;ma.textContent=e.mail;mail.appendChild(ma);
+    const exp=document.createElement("div");exp.className="exp";exp.textContent=e.exp[lang];
+    c.append(img,h,aff,mail,exp);
+    g.appendChild(c);
+  });
+}
+
+function applyLang(lang){
+  if(!T[lang]) lang="en";
+  document.documentElement.lang=lang;
+  const dict=T[lang];
+  document.querySelectorAll("[data-i18n]").forEach(el=>{
+    const k=el.getAttribute("data-i18n");
+    if(dict[k]!=null){el.textContent=dict[k];}
+  });
+  renderScope(lang);renderKeywords(lang);renderEditors(lang);
+  document.title=dict._title;
+  const md=document.querySelector('meta[name="description"]');if(md)md.setAttribute("content",dict._desc);
+  const ot=document.querySelector('meta[property="og:title"]');if(ot)ot.setAttribute("content",dict._title);
+  const od=document.querySelector('meta[property="og:description"]');if(od)od.setAttribute("content",dict._desc);
+  document.querySelectorAll(".lang button").forEach(b=>b.setAttribute("aria-pressed",b.getAttribute("data-lang")===lang?"true":"false"));
+  try{localStorage.setItem("cfp-lang",lang);}catch(e){}
+}
+
+document.querySelectorAll(".lang button").forEach(b=>{
+  b.addEventListener("click",()=>applyLang(b.getAttribute("data-lang")));
+});
+
+(function init(){
+  let lang="en";
+  try{const s=localStorage.getItem("cfp-lang");if(s&&T[s])lang=s;else{
+    const nl=(navigator.language||"en").toLowerCase();
+    if(nl.indexOf("zh")===0)lang="zh";else if(nl.indexOf("fr")===0)lang="fr";else lang="en";
+  }}catch(e){}
+  applyLang(lang);
+})();
+</script>
+</body>
+</html>
