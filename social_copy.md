@@ -8,17 +8,19 @@
 
 | 文件 | 用途 |
 |---|---|
-| `web/assets/cfp-poster-a4.png` | **主发布图**：A4 英文竖版 2382×3369，**二维码已嵌（指向 ScienceDirect 特刊主页）**，可直接发朋友圈/LinkedIn |
+| `web/assets/cfp-poster-a4.png` | LinkedIn / 打印版：A4 英文竖版 2382×3369，二维码指向 ScienceDirect 特刊主页 |
+| `web/assets/cfp-poster-moments.png` | **朋友圈专用图**：1080×1860 中文移动版，字体更大，二维码已嵌 |
 | `web/cfp_qr.png` | 同上（已同步） |
 | `web/social_copy.md` | 本文件 |
 | `web/index.html` | A4 单页海报网页；旧三语网页已存档 |
+| `web/moments.html` | 朋友圈专用移动版页面 |
 | `output/pdf/climate-resilient-structures-cfp-a4.pdf` | A4 单页打印版 PDF |
 
 ---
 
 ## 二、朋友圈（WeChat Moments）
 
-**配图**：直接发 `web/assets/cfp-poster-a4.png` 一张图（海报自带二维码，扫到 ScienceDirect 特刊主页）。
+**配图**：直接发 `web/assets/cfp-poster-moments.png` 一张图（移动版海报自带二维码，扫到 ScienceDirect 特刊主页）。
 
 **文案**：
 
@@ -37,7 +39,7 @@
 > 欢迎转发给相关方向的老师和同学。如需确认选题契合度，欢迎私信交流。
 
 **步骤**：
-1. 朋友圈 → 选 1 张图 → 选 `cfp-poster-a4.png`
+1. 朋友圈 → 选 1 张图 → 选 `cfp-poster-moments.png`
 2. 粘贴上面文案
 3. 发送
 
@@ -81,5 +83,5 @@
 ## 四、备注
 
 - 海报上的二维码指向 **ScienceDirect 特刊主页**（读者扫到的是 Elsevier 官方页面，能直接跳到 Editorial Manager 投稿）
-- GitHub Pages 更新部署后将直接显示同一张 A4 单页海报；旧三语网页保存在 `archive/index-multilingual-2026-07-30.html`
+- GitHub Pages 更新部署后，A4 版地址为 `/`，朋友圈移动版地址为 `/moments.html`；旧三语网页保存在 `archive/index-multilingual-2026-07-30.html`
 - 旧版横版 `cfp-social-card-wechat.png` 与 `poster-a4.png` 已被 `cfp-poster-a4.png` 取代；如不需要可忽略
