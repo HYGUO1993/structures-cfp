@@ -26,7 +26,7 @@
 >
 > 《气候韧性结构：全寿命性能与结构创新》
 >
-> 投稿开放：2026年8月1日
+> 投稿开放：2026年10月1日
 > 投稿截止：2027年7月31日
 > 文章类型：VSI: Climate Resilient Struct
 >
@@ -51,7 +51,7 @@
 >
 > **Climate-Resilient Structures: Life-Cycle Performance and Structural Innovation**
 >
-> Submissions open: 1 August 2026
+> Submissions open: 1 October 2026
 > Submission deadline: 31 July 2027
 > Article type in Editorial Manager: `VSI: Climate Resilient Struct`
 >
