@@ -32,6 +32,8 @@
 >
 > 客座编辑：董优（执行客座编辑，香港理工大学）· Emilio Bastidas-Arteaga（法国拉罗谢尔大学）· 郭弘原（香港理工大学）· 陈百曦（中佛罗里达大学）
 >
+> 选题咨询：you.dong@polyu.edu.hk
+>
 > 欢迎转发给相关方向的老师和同学。如需确认选题契合度，欢迎私信交流。
 
 **步骤**：
@@ -62,6 +64,8 @@
 > Submit via Editorial Manager: https://www.editorialmanager.com/STRUCTURES
 >
 > Guest Editors: You Dong (Executive Guest Editor, PolyU), Emilio Bastidas-Arteaga (La Rochelle University), Hongyuan Guo (PolyU), and Baixi Chen (UCF).
+>
+> Topic-fit inquiries: you.dong@polyu.edu.hk
 >
 > Please share with colleagues working in these areas, and feel free to reach out to discuss fit.
 >
